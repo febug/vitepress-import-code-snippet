@@ -1,0 +1,15 @@
+{
+  "name": "vitepress-import-code-snippet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/febug/vitepress-import-code-snippet.git",
+  "author": "yuxino <nbsawz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vitepress": "^0.7.2"
+  },
+  "scripts": {
+    "serve": "yarn vitepress",
+    "build": "yarn vitepress build"
+  }
+}

@@ -1,0 +1,63 @@
+code {
+  line-height: 1.85em;
+}
+
+.container {
+  margin-bottom: 1.5rem;
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+}
+
+.container > div {
+  padding: 1.5rem;
+  background-color: inherit;
+  border-radius: inherit;
+}
+
+.container#UseClickAwayDemo button,
+.container#UseFullscreenDemo button,
+.container#UseCounterDemo button,
+.container#UseToggleDemo button {
+  margin-right: 6px;
+}
+
+.container#UseTitleDemo input {
+  margin-left: 6px;
+}
+
+.container#UseFaviconDemo {
+  display: flex;
+  align-items: flex-end;
+}
+
+.container#UseFaviconDemo .upload {
+  width: 128px;
+  height: 128px;
+  border-radius: 2px;
+  border: 1px dashed var(--border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.container#UseFaviconDemo .upload img {
+  width: 104px;
+  height: 104px;
+}
+
+.container#UseFaviconDemo .upload input[type="file"] {
+  width: 128px;
+  height: 128px;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+  position: absolute;
+}
+
+.container#UseFaviconDemo button {
+  margin-left: 12px;
+}
